@@ -1,0 +1,79 @@
+.brightColorPicker-colorPanel {
+    display: none;
+    float: left;
+    position: relative;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.699219);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.brightColorPicker-colorPalette {
+    width: 160px;
+    height: 100px;
+}
+.brightColorPicker-colorPalette .brightColorPicker-colorChoice:first-child {
+    border-top-left-radius: 3px;
+}
+.brightColorPicker-colorPalette .brightColorPicker-colorChoice:nth-child(8) {
+    border-top-right-radius: 3px;
+}
+.brightColorPicker-colorPalette .brightColorPicker-colorChoice:nth-child(33) {
+    border-bottom-left-radius: 3px;
+}
+.brightColorPicker-colorPalette .brightColorPicker-colorChoice:last-child {
+    border-bottom-right-radius: 3px;
+}
+.brightColorPicker-chosenColor {
+    clear: both;
+    margin-top: 5px;
+    width: 160px;
+    height: 20px;
+    border-radius: 3px;
+}
+.brightColorPicker-colorChoice {
+    cursor: crosshair;
+    font-size: 0.5em;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+.brightColorPicker-newLine {
+    clear: both;
+}
+.brightColorPicker-colorPanel a.brightColorPicker-closeDialog {
+  display: block;
+  position: absolute;
+  top: -8.88888888888889px;
+  right: -8.88888888888889px;
+  height: 0;
+  width: 20px;
+  padding: 20px 0 0 0;
+  overflow: hidden;
+  background: #000000 none;
+  border: 2.27272727272727px solid #ffffff;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 6px #000000, 1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), 1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 6px #000000, 1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), 1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 6px #000000, 1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), 1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 6px #000000, 1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px 1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), 1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3), -1.63636363636364px -1.63636363636364px 1.63636363636364px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.brightColorPicker-colorPanel a.brightColorPicker-closeDialog:before {
+  content: "\D7";
+  display: block;
+  text-align: center;
+  width: 20px;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Consolas, Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
+}
