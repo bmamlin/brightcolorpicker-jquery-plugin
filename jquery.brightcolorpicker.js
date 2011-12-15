@@ -105,7 +105,7 @@
                 panel.data('brightColorPicker', { 'callback' : callback });
                 var closer = $("<a class='brightColorPicker-closeDialog' title='Close'></a>");
                 closer.click(function(event) {
-                    $(event.target).parents('brightColorPicker-colorPanel').hide();
+                    $(event.target).parents('.brightColorPicker-colorPanel').hide();
                 });
                 panel.append(closer);
                 var palette = $("<div class='brightColorPicker-colorPalette'></div>");

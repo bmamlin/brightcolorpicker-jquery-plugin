@@ -2,15 +2,15 @@
     display: none;
     float: left;
     position: relative;
-    width: 160px;
+    width: 192px;
     background-color: rgba(0, 0, 0, 0.699219);
-    padding: 10px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 6px;
     box-shadow: 5px 5px 5px #ccc;
 }
 .brightColorPicker-colorPalette {
-    width: 160px;
-    height: 100px;
+    width: 192px;
+    height: 120px;
 }
 .brightColorPicker-colorPalette .brightColorPicker-colorChoice:first-child {
     border-top-left-radius: 3px;
@@ -27,15 +27,15 @@
 .brightColorPicker-chosenColor {
     clear: both;
     margin-top: 5px;
-    width: 160px;
-    height: 20px;
+    width: 192px;
+    height: 24px;
     border-radius: 3px;
 }
 .brightColorPicker-colorChoice {
     cursor: crosshair;
     font-size: 0.5em;
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
     float: left;
 }
 .brightColorPicker-newLine {
